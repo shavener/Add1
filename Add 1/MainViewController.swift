@@ -40,7 +40,7 @@ class MainViewController: UIViewController
         inputField?.addTarget(self, action: #selector(textFieldDidChange(textField:)), for:UIControlEvents.editingChanged)
     }
     
-    func textFieldDidChange(textField:UITextField)
+    @objc func textFieldDidChange(textField:UITextField)
     {
         if inputField?.text?.characters.count ?? 0 < 4
         {
@@ -81,7 +81,7 @@ class MainViewController: UIViewController
         }
     }
     
-    func onUpdateTimer()
+    @objc func onUpdateTimer()
     {
         if(seconds > 0 && seconds <= 60)
         {
