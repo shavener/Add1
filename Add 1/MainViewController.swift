@@ -146,9 +146,10 @@ class MainViewController: UIViewController
             
             hud?.show(animated: true)
             
+            self.inputField?.text = ""
+            
             DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
                 self.hud?.hide(animated: true)
-                self.inputField?.text = ""
             }
         }
     }
