@@ -14,7 +14,7 @@
 
 Running this project is easy – simply download the project, open it in Xcode 8+ and hit _Cmd-R_.
 
-_Updated for Swift 3_
+_Updated for Xcode 9 and Swift 4.0_
 
 ![Add 1](screenshot.jpg)
 
